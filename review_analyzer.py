@@ -13,6 +13,8 @@ import plotly.graph_objs as go
 from reviewscrapper import *
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+import matplotlib as mp
+
 
 def preprocess_text(text):
     # Make text lowercase and remove links, text in square brackets, punctuation, and words containing numbers
